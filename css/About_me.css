@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    height: 0;
+}
+
+#part_1 {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 20% 15% 15% 15%;
+    background-color: #D8CED7;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    margin-top: 0;
+    z-index: 2;
+}
+.s1_1{
+position: absolute;
+top: 15em;
+left: 18em;
+}
+.s1_2{
+position: absolute;
+top: 48em;
+left: 45.5em;
+}
+.btn-left {
+    margin: 0 auto;
+    text-align: center;
+    transition: all ease .5s;
+    letter-spacing: 3px;
+    position: relative;
+    height: auto;
+    width: 90%;
+    border-radius: 3px;
+  }
+  
+  .btn-left:hover {
+    width: 80%;
+    padding: 13px 15px 10px 15px;
+  }
+  
+  .btn-left::after {
+    content: "↩";
+    transition: all ease .5s;
+    position:relative;
+    opacity: 0;
+    left: -12px;
+    z-index: 3;
+  }
+  .btn-left:hover:after {
+    content: "↩";
+    transition: all ease .5s;
+    opacity: 1;
+    left: 8px;
+    z-index: 3;
+  }
+
+header{
+    position: absolute;
+    top: 2.5em;
+    left:4.5em;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+h3{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    line-height: 2;
+    margin-bottom: 10px;
+}
+h4 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    margin-bottom: 12px;
+}
+.s1_1 a{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-family: sans-serif;
+    text-decoration: none;
+    transition: 0.5s ;
+    -webkit-transition: 0.5s ;
+    -moz-transition: 0.5s ;
+    -ms-transition: 0.5s ;
+    -o-transition: 0.5s ;
+}
+.btn_1 {
+    text-align: center;
+    transition: all ease .5s;
+    position: relative;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px;
+  }
+  
+  .btn_1:hover {
+    width: 220px;
+    padding: 13px 15px 10px 15px;
+  }
+  
+  .btn_1:after {
+    content: "→";
+    transition: all ease .5s;
+    position:relative;
+    opacity: 0;
+    left: -12px;
+  }
+  .btn_1:hover:after {
+    content: "→";
+    transition: all ease .5s;
+    opacity: 1;
+    left: 8px;
+  }
+
+  h4:nth-of-type(2) {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    margin: 20px;
+    text-align: center;
+    margin-left: 105px;
+}
+i {
+  font-size: 50px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
