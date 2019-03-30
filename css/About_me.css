@@ -2,11 +2,30 @@ body{
     margin: 0;
     height: 0;
 }
-
+header{
+  position: absolute;
+  top: 2.5em;
+  left:4.5em;
+  z-index: 2;
+}
+.btn-left {
+  margin: 0 auto;
+  text-align: center;
+  transition: all ease .5s;
+  letter-spacing: 3px;
+  position: relative;
+  height: auto;
+  width: 80%;
+  border-radius: 3px;
+}
+.btn-left:hover {
+  width: 85%;
+  padding: 13px 0px 0px 0px;
+}
+/* Partie de gauche */
 #part_1 {
     display: grid;
-    grid-template-columns: 50%;
-    grid-template-rows: 20% 15% 15% 15%;
+    grid-template-columns: 40% 60%;
     background-color: #D8CED7;
     width: 100vw;
     height: 100vh;
@@ -14,17 +33,81 @@ body{
     margin-top: 0;
     z-index: 2;
 }
-header{
-  position: absolute;
-  top: 2.5em;
-  left:4.5em;
-}
 .s1_1{
+  position: relative;
+}
+#s1{
   position: absolute;
-  top: 18em;
-  left: 28em;
+  top: 16em;
+  left: 16em;
+}
+#moi {
+  width: 70%;
+}
+#logo {
+  width: 40%;
+  margin: 30px 0px 0px 80px;
+  
 }
 
+.s1_1 a{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-family: sans-serif;
+    text-decoration: none;
+    transition: 0.5s ;
+    -webkit-transition: 0.5s ;
+    -moz-transition: 0.5s ;
+    -ms-transition: 0.5s ;
+    -o-transition: 0.5s ;
+}
+
+i {
+  font-size: 50px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+/* Partie de droite */
+.s1_2{
+  position: relative;
+}
+
+#s2{
+  position: absolute;
+  top: 16.5em;
+  left: 3em;
+}
+h1{
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+#s2 div{
+  width: 70%;
+  text-align: justify;
+}
+h3{
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  line-height: 2;
+  margin-bottom: 15px;
+}
+
+h4 {
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  margin: 35px 0px 10px 0px; 
+}
+#s22{
+  position: absolute;
+  top: 55em;
+  left: 58em;
+}
 /* Button on hover adresse mail */
 span.title {
   margin: 0 auto;
@@ -38,7 +121,6 @@ span.title {
 .basicBox{
   width: 130px;
   height: 65px;
-  margin: 30px auto;
   color: #101010;
   font-family: 'Raleway', sans-serif;
   font-size: 1.75rem;
@@ -47,13 +129,13 @@ span.title {
   text-align: center;
   position: relative;
   cursor: pointer;
-  margin-top: 70px;
+  margin: 50px 0px 0px 55px;
 }
 
 svg {
   position: absolute;
   top: 0px;
-  left: -13px;
+  left: -15px;
 }
 svg rect, svg path, svg polyline {
   fill: none;
@@ -81,77 +163,4 @@ svg rect {
   -moz-transition: all 0.8s ease-in-out;
   -ms-transition: all 0.8s ease-in-out;
   -o-transition: all 0.8s ease-in-out;
-}
-.btn-left {
-    margin: 0 auto;
-    text-align: center;
-    transition: all ease .5s;
-    letter-spacing: 3px;
-    position: relative;
-    height: auto;
-    width: 80%;
-    border-radius: 3px;
-  }
-  
-  .btn-left:hover {
-    width: 85%;
-    padding: 13px 0px 0px 0px;
-  }
-h1{
-    font-size: 50px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    margin-bottom: 40px;
-}
-h3{
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    line-height: 2;
-    margin-bottom: 15px;
-}
-h4 {
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    margin-bottom: 15px;
-}
-.s1_1 a{
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    font-family: sans-serif;
-    text-decoration: none;
-    transition: 0.5s ;
-    -webkit-transition: 0.5s ;
-    -moz-transition: 0.5s ;
-    -ms-transition: 0.5s ;
-    -o-transition: 0.5s ;
-}
-.btn_1 {
-    text-align: center;
-    transition: all ease .5s;
-    position: relative;
-    width: 200px;
-    height: 50px;
-    border-radius: 3px;
-    text-align: center;
-    text-decoration: none;
-    margin: 50px;
-  }
-  h4:nth-of-type(2) {
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    margin: 60px 20px 20px 175px;
-    text-align: center;
-}
-i {
-  font-size: 50px;
-  margin-left: 100px;
-  margin-top: 40px;
-}
-
-.icones{
-  margin:
 }

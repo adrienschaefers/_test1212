@@ -23,6 +23,7 @@
     color: azure;
     position: relative;
     }
+
     /* TEXT QUI DEFILE */
 .Iam {
     color: #999;
@@ -32,6 +33,7 @@
     top: 17em;
     left: 30.3em;
       }
+
 .Iam b {
         float: left;
         overflow: hidden;
@@ -39,6 +41,7 @@
         height: 40px;
         top: 37.5px;
       }
+      
 .Iam .innerIam {
               display: inline-block;
               color: #D8CED7;
