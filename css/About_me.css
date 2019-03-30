@@ -14,22 +14,74 @@ body{
     margin-top: 0;
     z-index: 2;
 }
-.s1_1{
-position: absolute;
-top: 15em;
-left: 18em;
-}
-.s1_2{
-position: absolute;
-top: 48em;
-left: 45.5em;
-}
 header{
   position: absolute;
   top: 2.5em;
   left:4.5em;
 }
+.s1_1{
+  position: absolute;
+  top: 18em;
+  left: 28em;
+}
 
+/* Button on hover adresse mail */
+span.title {
+  margin: 0 auto;
+  color: #BBB;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.85rem;
+  text-align: center;
+  display: block;
+}
+
+.basicBox{
+  width: 130px;
+  height: 65px;
+  margin: 30px auto;
+  color: #101010;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.75rem;
+  line-height: 65px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  margin-top: 70px;
+}
+
+svg {
+  position: absolute;
+  top: 0px;
+  left: -13px;
+}
+svg rect, svg path, svg polyline {
+  fill: none;
+  stroke: #101010;
+  stroke-width: 2;
+}
+
+.basicBox:hover svg rect, .swiggleBox:hover svg path, .checkBox:hover svg polyline {
+  stroke: #101010;
+}
+
+/* Basic Box */
+svg rect {
+  stroke-dasharray: 500, 0;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
+.basicBox:hover svg rect {
+  stroke-width: 3;
+  stroke-dasharray: 35, 245;
+  stroke-dashoffset: 38;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
 .btn-left {
     margin: 0 auto;
     text-align: center;
@@ -45,22 +97,6 @@ header{
     width: 85%;
     padding: 13px 0px 0px 0px;
   }
-  
-  .btn-left::after {
-    content: "↩";
-    transition: all ease .5s;
-    position:relative;
-    opacity: 0;
-    left: -12px;
-  }
-  .btn-left:hover:after {
-    content: "↩";
-    transition: all ease .5s;
-    opacity: 1;
-    left: 8px;
-  }
-
-
 h1{
     font-size: 50px;
     font-family: 'Raleway', sans-serif;
@@ -103,20 +139,19 @@ h4 {
     text-decoration: none;
     margin: 50px;
   }
-  
-  
-  
-
   h4:nth-of-type(2) {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    margin: 20px;
+    margin: 60px 20px 20px 175px;
     text-align: center;
-    margin-left: 105px;
 }
 i {
   font-size: 50px;
   margin-left: 100px;
   margin-top: 40px;
+}
+
+.icones{
+  margin:
 }
