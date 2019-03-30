@@ -25,7 +25,7 @@ header{
 /* Partie de gauche */
 #part_1 {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 30% 70%;
     background-color: #D8CED7;
     width: 100vw;
     height: 100vh;
@@ -45,9 +45,9 @@ header{
   width: 70%;
 }
 #logo {
-  width: 40%;
-  margin: 30px 0px 0px 80px;
-  
+  width: 60%;
+  margin: 30px 0px 0px 24px;
+  z-index: 3;
 }
 
 .s1_1 a{
@@ -77,7 +77,7 @@ i {
 #s2{
   position: absolute;
   top: 16.5em;
-  left: 3em;
+  left: 2em;
 }
 h1{
   font-size: 40px;
@@ -105,8 +105,8 @@ h4 {
 }
 #s22{
   position: absolute;
-  top: 55em;
-  left: 58em;
+  top: 48em;
+  left: 65em;
 }
 /* Button on hover adresse mail */
 span.title {
@@ -129,7 +129,7 @@ span.title {
   text-align: center;
   position: relative;
   cursor: pointer;
-  margin: 50px 0px 0px 55px;
+  margin: 50px 0px 0px -14px;
 }
 
 svg {
