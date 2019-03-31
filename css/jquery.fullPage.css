@@ -30,7 +30,7 @@
     position: absolute;
     font-size: 28px;
     font-family: 'Roboto', sans-serif;
-    top: 17em;
+    top: 15em;
     left: 31em;
       }
 
@@ -97,16 +97,16 @@
     .s1_1 h1{
         font-size: 42px;
         position: absolute;
-        top: 10em;
+        top: 7em;
         left: 90px;
         font-family: 'Raleway', sans-serif;
         font-weight: 500;
     }
     .s1_1 h3{
-        font-size: 28px;
+        font-size: 23px;
         position: absolute;
         left: 90px;
-        top: 18em;
+        top: 16em;
         font-family: 'Roboto', sans-serif;
         font-weight: 200;
         margin-top: 0;
@@ -118,11 +118,11 @@
         }
         .s1_2 a{
             position: absolute;
-            top: 30em;
-            left: 0em;
+            top: 32em;
+            left: -5em;
             padding: 20px 20px 20px 30px;
             color: #fff;
-            font-size: 20px;
+            font-size: 16px;
             font-family: sans-serif;
             text-decoration: none;
             text-transform: uppercase;
@@ -191,7 +191,7 @@
         }
         
         .s2_1 h3{
-            font-size: 28px;
+            font-size: 23px;
             position: absolute;
             left: 90px;
             top: 350px;
@@ -204,18 +204,18 @@
             position: relative;
         }
         .s2_2 img{
-            width: 30em;
+            width: 28em;
             top: 165px;
             left: 0px;
             position: absolute;
         }
         .s2_2 a{
             position: absolute;
-            top: 25em;
+            top: 32em;
             left: 18em;
             padding: 20px 20px 20px 30px;
             color: #101010;
-            font-size: 20px;
+            font-size: 16px;
             font-family: sans-serif;
             text-decoration: none;
             text-transform: uppercase;
@@ -279,7 +279,7 @@
     font-weight: 500;
 }
 .s3_1 h3{
-    font-size: 28px;
+    font-size: 23px;
     position: absolute;
     left: 90px;
     top: 350px;
@@ -293,16 +293,16 @@
 .s3_2 img{
     position: absolute;
     width: 20em;
-    top: 180px;
+    top: 120px;
     left: 0px;
     }
 .s3_2 a{
         position: absolute;
-        top: 25em;
+        top: 32em;
         left: 18em;
             padding: 20px 20px 20px 30px;
             color: #fff;
-            font-size: 20px;
+            font-size: 16px;
             font-family: sans-serif;
             text-decoration: none;
             text-transform: uppercase;
@@ -343,7 +343,7 @@
 }
 
 .s4_1 h3{
-    font-size: 28px;
+    font-size: 23px;
     position: absolute;
     left: 90px;
     top: 350px;
@@ -357,17 +357,17 @@
 }
 .s4_2 img{
     width: 30em;
-    top: 287px;
+    top: 200px;
     left: 30px;
     position: absolute;
 }
 .s4_2 a{
     position: absolute;
-    top: 25em;
+    top: 32em;
     left: 18em;
     padding: 20px 20px 20px 30px;
     color: #101010;
-    font-size: 20px;
+    font-size: 16px;
     font-family: sans-serif;
     text-decoration: none;
     text-transform: uppercase;
