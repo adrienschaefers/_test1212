@@ -28,18 +28,18 @@
 .Iam {
     color: #999;
     position: absolute;
-    font-size: 35px;
+    font-size: 28px;
     font-family: 'Roboto', sans-serif;
     top: 17em;
-    left: 30.3em;
+    left: 31em;
       }
 
 .Iam b {
         float: left;
         overflow: hidden;
         position: relative;
-        height: 40px;
-        top: 37.5px;
+        height: 38px;
+        top: 40px;
       }
 
 .Iam .innerIam {
@@ -95,7 +95,7 @@
 
     /* SECTION 1 gauche */
     .s1_1 h1{
-        font-size: 50px;
+        font-size: 42px;
         position: absolute;
         top: 10em;
         left: 90px;
@@ -103,7 +103,7 @@
         font-weight: 500;
     }
     .s1_1 h3{
-        font-size: 35px;
+        font-size: 28px;
         position: absolute;
         left: 90px;
         top: 18em;
@@ -118,7 +118,7 @@
         }
         .s1_2 a{
             position: absolute;
-            top: 36em;
+            top: 30em;
             left: 0em;
             padding: 20px 20px 20px 30px;
             color: #fff;
@@ -181,9 +181,9 @@
             }
         
         .s2_1 h1{
-            font-size: 50px;
+            font-size: 42px;
             position: absolute;
-            top: 390px;
+            top: 250px;
             left: 90px;
             font-family: 'Raleway', sans-serif;
             font-weight: 500;
@@ -191,10 +191,10 @@
         }
         
         .s2_1 h3{
-            font-size: 35px;
+            font-size: 28px;
             position: absolute;
             left: 90px;
-            top: 520px;
+            top: 350px;
             font-family: 'Roboto', sans-serif;
             font-weight: 200;
             margin-bottom: unset;
@@ -204,15 +204,15 @@
             position: relative;
         }
         .s2_2 img{
-            width: 40em;
-            top: 240px;
+            width: 30em;
+            top: 165px;
             left: 0px;
             position: absolute;
         }
         .s2_2 a{
             position: absolute;
-            top: 36em;
-            left: 23em;
+            top: 25em;
+            left: 18em;
             padding: 20px 20px 20px 30px;
             color: #101010;
             font-size: 20px;
@@ -271,18 +271,18 @@
     z-index: 2;
 }
 .s3_1 h1{
-    font-size: 50px;
+    font-size: 42px;
     position: absolute;
-    top: 320px;
+    top: 250px;
     left: 90px;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
 }
 .s3_1 h3{
-    font-size: 35px;
+    font-size: 28px;
     position: absolute;
     left: 90px;
-    top: 450px;
+    top: 350px;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     margin-bottom: unset;
@@ -292,14 +292,14 @@
 }
 .s3_2 img{
     position: absolute;
-    width: 25em;
+    width: 20em;
     top: 180px;
     left: 0px;
     }
 .s3_2 a{
         position: absolute;
-        top: 36em;
-        left: 26em;
+        top: 25em;
+        left: 18em;
             padding: 20px 20px 20px 30px;
             color: #fff;
             font-size: 20px;
@@ -333,9 +333,9 @@
     }
 
 .s4_1 h1{
-    font-size: 50px;
+    font-size: 42px;
     position: absolute;
-    top: 390px;
+    top: 250px;
     left: 90px;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
@@ -343,10 +343,10 @@
 }
 
 .s4_1 h3{
-    font-size: 35px;
+    font-size: 28px;
     position: absolute;
     left: 90px;
-    top: 520px;
+    top: 350px;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     margin-bottom: unset;
@@ -356,15 +356,15 @@
     position: relative;
 }
 .s4_2 img{
-    width: 40em;
+    width: 30em;
     top: 287px;
     left: 30px;
     position: absolute;
 }
 .s4_2 a{
     position: absolute;
-    top: 36em;
-    left: 23em;
+    top: 25em;
+    left: 18em;
     padding: 20px 20px 20px 30px;
     color: #101010;
     font-size: 20px;

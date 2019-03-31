@@ -5,7 +5,7 @@ body{
 
 #part_1 {
     display: grid;
-    grid-template-columns: 41% 59%;
+    grid-template-columns: 35% 65%;
     background-color: #D8CED7;
     width: 100vw;
     height: 100vh;
@@ -15,35 +15,35 @@ body{
 }
 
 header{
-    position: absolute;
-    top: 2.5em;
-    left:4.5em;
-    z-index: 300;
+  position: absolute;
+  top: 3.5em;
+  left:4.5em;
+  z-index: 3;
 }
 .btn-left {
-    margin: 0 auto;
-    text-align: center;
-    transition: all ease .5s;
-    letter-spacing: 3px;
-    position: relative;
-    height: auto;
-    width: 80%;
-    border-radius: 3px;
-  }
-  .btn-left:hover {
-    width: 85%;
-    padding: 13px 0px 0px 0px;
-  }
+  margin: 0 auto;
+  text-align: center;
+  transition: all ease .5s;
+  letter-spacing: 3px;
+  position: relative;
+  height: auto;
+  width: 55%;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.btn-left:hover {
+  width: 60%;
+  padding: 5px 10px 0px 0px;}
 
   /* TITLE */
 
 #title {
   position: absolute;
-  top: 3em;
-  left: 4em;
+  top: 4.5em;
+  left:3em;
   z-index: 300;
   font-family: 'Raleway', sans-serif;
-  font-size: 70px;
+  font-size: 40px;
 }
 
   /* left side */
@@ -53,32 +53,72 @@ position: relative;
 
 #s1{
   position: absolute;
-  top: 24em;
-  left: 18.7em;
+  top: 18em;
+  left: 8em;
   text-align: justify;
 }
 
 #s1 h3{
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 300;
   line-height: 2;
 }
 
 #s1 h2 {
-  margin-top: 45px;
+  margin-top: 30px;
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 300;
   line-height: 1.7;
 
 }
 
 /* right side */
-  .s1_2{
+.s1_2{
 position: relative;
   }
 #s2{
-  position: absolute;
-
+  position: relative;
 }
+.s2_vid{
+  position: absolute;
+    top: 4em;
+    left: 4em;
+}
+.s2_vid video{
+  width: 27em;
+}
+.s2_over{
+position: absolute;
+top: 23.7em;
+left: 19em;
+}
+/* Image overlay */
+/* Conteneur principal */
+.overlay-image {
+  position: relative;
+  width: 70%;
+ }
+
+ /* Image originale */
+.overlay-image .image {
+  display: block;
+  width: 100%;
+  height: auto;
+ }
+
+ /* Overlay */
+.overlay-image .hover {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+ }
+ 
+ /* Apparition overlay sur passage souris */
+ .overlay-image:hover .hover {
+  opacity: 1;
+ }
