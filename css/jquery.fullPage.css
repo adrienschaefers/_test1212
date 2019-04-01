@@ -14,235 +14,142 @@
     background-color: #101010;
     width: 100vw;
     height: 100vh;
-    position: relative;
     margin-top: 0;
-    z-index: 2;
  }
 
- .s1_1{
-    color: azure;
-    position: relative;
+/* SECTION 1 gauche */
+.s1_1 {
+    color: #D8CED7;
+    align-self: end;
     }
-
-    /* TEXT QUI DEFILE */
-.Iam {
-    color: #999;
-    position: absolute;
-    font-size: 28px;
+.s1_1 h1{
+    font-size: 4rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin: 0rem 0rem 1rem 5rem;
+    }
+.s1_1 h3{
+    font-size: 2rem;
     font-family: 'Roboto', sans-serif;
-    top: 15em;
-    left: 31em;
-      }
-
-.Iam b {
-        float: left;
-        overflow: hidden;
-        position: relative;
-        height: 38px;
-        top: 40px;
-      }
-
-.Iam .innerIam {
-              display: inline-block;
-              color: #D8CED7;
-              position: relative;
-              white-space: nowrap;
-              top: 0;
-              left: 0;
-              /*animation*/-webkit-animation:move 5s;
-              -moz-animation:move 5s;
-              -ms-animation:move 5s;
-              -o-animation:move 5s;
-              animation:move 5s;
-              /*animation-iteration-count*/-webkit-animation-iteration-count:infinite;
-              -moz-animation-iteration-count:infinite;
-              -ms-animation-iteration-count:infinite;
-              -o-animation-iteration-count:infinite;
-              animation-iteration-count:infinite;
-              /*animation-delay*/-webkit-animation-delay:1s;
-              -moz-animation-delay:1s;
-              -ms-animation-delay:1s;
-              -o-animation-delay:1s;
-              animation-delay:1s;
-              -webkit-animation:move 5s;
-                }
-      @keyframes move{
-      0%  { top: -5px; }
-      20% { top: -45px; }
-      40% { top: -85px; }
-      }
-      
-      @-webkit-keyframes move {
-          0%  { top: -5px; }
-          20% { top: -45px; }
-          40% { top: -85px; }
-      }
-      @-moz-keyframes move {
-          0%  { top: -5px; }
-          20% { top: -45px; }
-          40% { top: -85px; }
-      }
-      @-o-keyframes move {
-          0%  { top: -5px; }
-          20% { top: -45px; }
-          40% { top: -85px; }
-      }
-      @keyframes move {
-          0%  { top: -5px; }
-          20% { top: -45px; }
-          40% { top: -85px; }
-      }
-
-    /* SECTION 1 gauche */
-    .s1_1 h1{
-        font-size: 42px;
-        position: absolute;
-        top: 7em;
-        left: 90px;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 500;
-    }
-    .s1_1 h3{
-        font-size: 23px;
-        position: absolute;
-        left: 90px;
-        top: 16em;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 200;
-        margin-top: 0;
+    font-weight: 200;
+    margin: 0rem 0rem 15rem 5rem;
     }
 
-    /* SECTION 1 DROITE */
-    .s1_2{
-        position: relative;
+/* SECTION 1 DROITE */
+
+.s1_2{
+    align-self: end;
+    }
+
+.s1_2 a{
+    color: #fff;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    transition: 0.5s ;
+    -webkit-transition: 0.5s ;
+    -moz-transition: 0.5s ;
+    -ms-transition: 0.5s ;
+    -o-transition: 0.5s ;
+    }
+
+.btn_1 {
+        margin: 0 0 6rem 0;
+        text-align: center;
+        transition: all ease .5s;
+        letter-spacing: 3px;
+        width: 200px;
+        height: 50px;
+        border-radius: 3px;
         }
-        .s1_2 a{
-            position: absolute;
-            top: 32em;
-            left: -5em;
-            padding: 20px 20px 20px 30px;
-            color: #fff;
-            font-size: 16px;
-            font-family: sans-serif;
-            text-decoration: none;
-            text-transform: uppercase;
-            letter-spacing: 8px;
-            transition: 0.5s ;
-            -webkit-transition: 0.5s ;
-            -moz-transition: 0.5s ;
-            -ms-transition: 0.5s ;
-            -o-transition: 0.5s ;
-        }
-        .btn_1 {
-            margin: 0 auto;
-            text-align: center;
-            transition: all ease .5s;
-            letter-spacing: 3px;
-            position: relative;
-            width: 200px;
-            height: 50px;
-            border-radius: 3px;
-            padding: 13px 10px 10px 30px;
+          
+.btn_1:hover {
+        width: 220px;
+        padding: 13px 15px 10px 15px;
           }
           
-          .btn_1:hover {
-            width: 220px;
-            padding: 13px 15px 10px 15px;
+.btn_1:after {
+        content: "→";
+        transition: all ease .5s;
+        position:relative;
+        opacity: 0;
+        left: -12px;
+          }
+.btn_1:hover:after {
+        content: "→";
+        transition: all ease .5s;
+        opacity: 1;
+        left: 8px;
           }
           
-          .btn_1:after {
-            content: "→";
-            transition: all ease .5s;
-            position:relative;
-            opacity: 0;
-            left: -12px;
-          }
-          .btn_1:hover:after {
-            content: "→";
-            transition: all ease .5s;
-            opacity: 1;
-            left: 8px;
-          }
-          
-        /* Section 2 */
-        #part_2 {
-            display: grid;
-            grid-template-columns: 50% 50%;
-            width: 100vw;
-            height: 100vh;
-            color:#101010;
-            background-color: #D8CED7;
-            transform-style: preserve-3d;
-            position: relative;
-            z-index: 1;
+/* Section 2 */
+#part_2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100vw;
+        height: 100vh;
+        color:#101010;
+        background-color: #D8CED7;
+        transform-style: preserve-3d;
         }
-        .s2_1{
-            position: relative;
-            }
+.s2_1{
+    align-self: end;
+    }
         
-        .s2_1 h1{
-            font-size: 42px;
-            position: absolute;
-            top: 250px;
-            left: 90px;
-            font-family: 'Raleway', sans-serif;
-            font-weight: 500;
-            margin: 0;
+.s2_1 h1{
+    font-size: 4rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin: 0rem 0rem 1rem 5rem;
         }
         
-        .s2_1 h3{
-            font-size: 23px;
-            position: absolute;
-            left: 90px;
-            top: 350px;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 200;
-            margin-bottom: unset;
-            margin: 0;}
+.s2_1 h3{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    margin-bottom: unset;
+    margin: 0rem 0rem 25rem 5rem;
+}
         
-        .s2_2{
-            position: relative;
+.s2_2{
+     align-self: end;
         }
-        .s2_2 img{
-            width: 28em;
-            top: 165px;
-            left: 0px;
-            position: absolute;
+
+.s2_2 img{
+     width: 40rem;
+     margin: 0 0 10rem 0;
         }
-        .s2_2 a{
-            position: absolute;
-            top: 32em;
-            left: 18em;
-            padding: 20px 20px 20px 30px;
-            color: #101010;
-            font-size: 16px;
-            font-family: sans-serif;
-            text-decoration: none;
-            text-transform: uppercase;
-            letter-spacing: 8px;
-            transition: 0.5s ;
-            -webkit-transition: 0.5s ;
-            -moz-transition: 0.5s ;
-            -ms-transition: 0.5s ;
-            -o-transition: 0.5s ;
+
+.s2_2 a{
+    padding: 20px 20px 20px 30px;
+    color: #101010;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    transition: 0.5s ;
+    -webkit-transition: 0.5s ;
+    -moz-transition: 0.5s ;
+    -ms-transition: 0.5s ;
+    -o-transition: 0.5s ;
         }
-        .btn_2 {
-            margin: 0 auto;
-            text-align: center;
-            transition: all ease .5s;
-            letter-spacing: 3px;
-            position: relative;
-            width: 200px;
-            height: 50px;
-            border-radius: 3px;
-            padding: 13px 10px 10px 30px;
+
+    .btn_2 {
+        margin:  0 0 4rem 38.5rem;
+        text-align: center;
+        transition: all ease .5s;
+        letter-spacing: 3px;
+        width: 200px;
+        height: 50px;
+        border-radius: 3px;
           }
-          
-          .btn_2:hover {
-            width: 220px;
-            padding: 13px 15px 10px 15px;
-          }
-          
+    .btn_2:hover {
+        width: 220px;
+        padding: 13px 15px 10px 15px;
+    }
           .btn_2:after {
             content: "→";
             transition: all ease .5s;
@@ -266,54 +173,69 @@
     width: 100vw;
     height: 100vh;
     margin-top: 0;
-    position: relative;
-    margin-top: 0;
-    z-index: 2;
+}
+.s3_1{
+    align-self: end;
+
 }
 .s3_1 h1{
-    font-size: 42px;
-    position: absolute;
-    top: 250px;
-    left: 90px;
+    font-size: 4rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
+    margin: 0rem 0rem 1rem 5rem;
 }
 .s3_1 h3{
-    font-size: 23px;
-    position: absolute;
-    left: 90px;
-    top: 350px;
+    font-size: 2rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    margin-bottom: unset;
+    margin: 0rem 0rem 25rem 5rem;
 }
 .s3_2{
-    position: relative;
+    align-self: end;
 }
 .s3_2 img{
-    position: absolute;
-    width: 20em;
-    top: 120px;
-    left: 0px;
+    width: 28rem;
+    margin: 0 0 6rem 0;
     }
 .s3_2 a{
-        position: absolute;
-        top: 32em;
-        left: 18em;
-            padding: 20px 20px 20px 30px;
-            color: #fff;
-            font-size: 16px;
-            font-family: sans-serif;
-            text-decoration: none;
-            text-transform: uppercase;
-            letter-spacing: 8px;
-            transition: 0.5s ;
-            -webkit-transition: 0.5s ;
-            -moz-transition: 0.5s ;
-            -ms-transition: 0.5s ;
-            -o-transition: 0.5s ;
+        color: #fff;
+        font-size: 16px;
+        font-family: sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        transition: 0.5s ;
+        -webkit-transition: 0.5s ;
+        -moz-transition: 0.5s ;
+        -ms-transition: 0.5s ;
+        -o-transition: 0.5s ;
         }
-        
+        .btn_3 {
+            margin:  0 0 4rem 38.5rem;
+            text-align: center;
+            transition: all ease .5s;
+            letter-spacing: 3px;
+            width: 200px;
+            height: 50px;
+            border-radius: 3px;
+              }
+        .btn_3:hover {
+            width: 220px;
+            padding: 13px 15px 10px 15px;
+            }
+        .btn_3:after {
+            content: "→";
+            transition: all ease .5s;
+            position:relative;
+            opacity: 0;
+            left: -12px;
+            }
+        .btn_3:hover:after {
+            content: "→";
+            transition: all ease .5s;
+            opacity: 1;
+            left: 8px;
+            }
 /* SECTION 4  */
 #part_4 {
     display: grid;
@@ -324,48 +246,34 @@
     background-color: #D8CED7;
     transform-style: preserve-3d;
     position: relative;
-    z-index: 1;
-    margin: 0;
 }
 
 .s4_1{
-    position: relative;
+    align-self: end;
     }
 
 .s4_1 h1{
-    font-size: 42px;
-    position: absolute;
-    top: 250px;
-    left: 90px;
+    font-size: 4rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    margin: 0;
+    margin: 0rem 0rem 1rem 5rem;
 }
 
 .s4_1 h3{
-    font-size: 23px;
-    position: absolute;
-    left: 90px;
-    top: 350px;
+    font-size: 2rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    margin-bottom: unset;
-    margin: 0;}
+    margin: 0rem 0rem 25rem 5rem;
+}
 
 .s4_2{
-    position: relative;
+    align-self: end;
 }
 .s4_2 img{
-    width: 30em;
-    top: 200px;
-    left: 30px;
-    position: absolute;
+    width: 40rem;
+    margin: 0 0 13rem;
 }
 .s4_2 a{
-    position: absolute;
-    top: 32em;
-    left: 18em;
-    padding: 20px 20px 20px 30px;
     color: #101010;
     font-size: 16px;
     font-family: sans-serif;

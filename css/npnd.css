@@ -13,7 +13,6 @@ body{
     margin-top: 0;
     z-index: 2;
 }
-
 header{
     position: absolute;
     top: 2.5em;
@@ -21,29 +20,30 @@ header{
     z-index: 300;
 }
 .btn-left {
-    margin: 0 auto;
-    text-align: center;
-    transition: all ease .5s;
-    letter-spacing: 3px;
-    position: relative;
-    height: auto;
-    width: 80%;
-    border-radius: 3px;
-  }
+  margin: 0 auto;
+  text-align: center;
+  transition: all ease .5s;
+  letter-spacing: 3px;
+  position: relative;
+  height: auto;
+  width: 55%;
+  border-radius: 3px;
+  cursor: pointer;
+}
   .btn-left:hover {
-    width: 85%;
-    padding: 13px 0px 0px 0px;
+    width: 70%;
+    padding: 10px 10px 0px 0px;
   }
 
   /* TITLE */
 
 #title {
   position: absolute;
-  top: 4em;
+  top: 5.5em;
   left: 4.6em;
   z-index: 300;
   font-family: 'Raleway', sans-serif;
-  font-size: 60px;
+  font-size: 40px;
 }
 
   /* left side */
@@ -52,23 +52,22 @@ position: relative;
   }
 
 #s1{
-  position: absolute;
-  top: 24em;
-  left: 18.7em;
-  text-align: justify;
-}
-
+    position: absolute;
+    top: 20em;
+    left: 12.3em;
+  }
+  
 #s1 h3{
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 300;
   line-height: 2;
 }
 
 #s1 h2 {
-  margin-top: 45px;
+  margin-top: 40px;
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 300;
   line-height: 1.7;
 

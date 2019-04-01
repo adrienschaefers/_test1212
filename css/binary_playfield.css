@@ -95,7 +95,7 @@ header{
   opacity: 0;
   transition: .5s ease;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: #D8CED7;
   font-weight: 300;
   background-color:rgba(16, 16, 16, 0.90)
@@ -104,6 +104,10 @@ header{
  .overlay-image:hover .hover {
   opacity: 1;
  }
+ .text{
+  padding: 20px;
+ }
+
 .s1_2{
   position: relative;
   display: inline-block;
@@ -118,18 +122,18 @@ header{
 .poster{
   position: absolute;
   left: 5em;
-  top: 7.7em;
+  top: 10.7em;
 }
 
 .poster img{
-  width: 22em;
+  width: 20em;
 
 }
 .pub{
   position: absolute;
   left: 28em;
-  top:8em;
+  top: 11em;
 }
 .pub img{
-  width: 22em;
+  width: 20em;
 }
