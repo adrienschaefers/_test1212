@@ -32,41 +32,29 @@ header{
   cursor: pointer;
 }
 .btn-left:hover {
-  width: 70%;
-  padding: 10px 10px 0px 0px;
-}
-  /* TITLE */
-
-#title {
-  position: absolute;
-  top: 5.5em;
-  left:3em;
-  z-index: 300;
-  font-family: 'Raleway', sans-serif;
-  font-size: 40px;
+  width: 65%;
 }
 
   /* left side */
-  .s1_1{
-position: relative;
-  }
-
-#s1{
-  position: absolute;
-  top: 21em;
-  left: 8em;
+.s1_1{
+  align-self: end;
   text-align: justify;
+  margin: 0 0 15rem 12rem;
 }
 
-#s1 h3{
+.s1_1 h1 {
+  font-family: 'Raleway', sans-serif;
+}
+.s1_1 h3{
+  margin-top: 30px;
   font-family: 'Roboto', sans-serif;
   font-size: 13px;
   font-weight: 300;
   line-height: 2;
 }
 
-#s1 h2 {
-  margin-top: 40px;
+.s1_1 h2 {
+  margin-top: 30px;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -75,29 +63,18 @@ position: relative;
 
 /* right side */
 .s1_2{
-position: relative;
-  }
-#s2{
-  position: relative;
-}
-.s2_vid{
-  position: absolute;
-    top: 4em;
-    left: 4em;
+margin: 4rem 0  0  15rem;
 }
 .s2_vid video{
   width: 27em;
 }
-.s2_over{
-position: absolute;
-top: 23.7em;
-left: 19em;
-}
+
 /* Image overlay */
 /* Conteneur principal */
 .overlay-image {
   position: relative;
-  width: 70%;
+  width: 59.2%;
+  margin: 2rem 0 0 0 ; 
  }
 
  /* Image originale */

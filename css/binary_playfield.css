@@ -5,7 +5,7 @@ body{
 
 #part_1 {
     display: grid;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 35% 32.5% 32.5%;
     background-color: #D8CED7;
     width: 100vw;
     height: 100vh;
@@ -32,39 +32,28 @@ header{
   cursor: pointer;
 }
 .btn-left:hover {
-  width: 60%;
-  padding: 5px 10px 0px 0px;}
-
-  /* TITLE */
-
-  #title {
-    position: absolute;
-    top: 4.2em;
-    left:3em;
-    z-index: 300;
-    font-family: 'Raleway', sans-serif;
-    font-size: 40px;
-  }
-
+  width: 65%;
+}
   /* left side */
-  .s1_1{
+.s1_1{
     position: relative;
-  }
-  #s1{
-    position: absolute;
-    top: 16em;
-    left: 8em;
     text-align: justify;
+    align-self: end;
+    margin: 0 0 11.5rem 10rem;
   }
-  
-  #s1 h3{
+.s1_1 h1{
+  margin: 0 0 3rem 0 ; 
+  font-family: 'Raleway', sans-serif;
+}
+
+.s1_1 h3{
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     font-weight: 300;
     line-height: 2;
   }
   
-  #s1 h2 {
+.s1_1 h2 {
     margin-top: 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -91,7 +80,7 @@ header{
   top: 0.3em;
   left: 0.45em;
   height: 96%;
-  width: 96%;
+  width: 86%;
   opacity: 0;
   transition: .5s ease;
   font-family: 'Roboto', sans-serif;
@@ -109,31 +98,14 @@ header{
  }
 
 .s1_2{
-  position: relative;
-  display: inline-block;
+margin: 18rem 0 0 6em;
+ }
+.s1_2 img{
+  width: 89%;
 }
-
-#s2{
-  position: relative;
-  display: grid;
-  grid-template-columns: 50% 50%;
+.s1_3{
+  margin: 18rem 0 0 0em;
 }
-
-.poster{
-  position: absolute;
-  left: 5em;
-  top: 10.7em;
-}
-
-.poster img{
-  width: 20em;
-
-}
-.pub{
-  position: absolute;
-  left: 28em;
-  top: 11em;
-}
-.pub img{
-  width: 20em;
+.s1_3 img{
+width: 70%;
 }
