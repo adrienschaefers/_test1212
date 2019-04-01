@@ -21,6 +21,7 @@
 .s1_1 {
     color: #D8CED7;
     align-self: end;
+    position:relative;
     }
 .s1_1 h1{
     font-size: 4rem;
@@ -28,6 +29,7 @@
     font-weight: 500;
     margin: 0rem 0rem 1rem 5rem;
     }
+
 .s1_1 h3{
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
@@ -35,6 +37,28 @@
     margin: 0rem 0rem 15rem 5rem;
     }
 
+.s1_1 h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: 15rem;
+    left: 60.5rem;
+}
+/* Typing css */
+
+.typing-text::after {
+        content: "|";
+        animation: blink ease 1s infinite;
+      }
+      
+      @keyframes blink {
+        0%, 100% {
+          opacity: 0;
+        } 50% {
+          opacity: 1;
+        }
+      }
 /* SECTION 1 DROITE */
 
 .s1_2{
