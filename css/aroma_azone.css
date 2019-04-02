@@ -99,7 +99,7 @@ margin: 4rem 0  0  15rem;
   opacity: 1;
  }
  /* IPAD */
- @media only screen and (max-device-width : 768px) {
+ @media only screen and (max-device-width : 770px) {
   header {
     position: absolute;
     top: 5em;
@@ -112,7 +112,7 @@ margin: 4rem 0  0  15rem;
     transition: all ease .5s;
     letter-spacing: 3px;
     height: auto;
-    width: 80%;
+    width: 70%;
     border-radius: 3px;
     cursor: pointer;
   }
@@ -121,10 +121,9 @@ margin: 4rem 0  0  15rem;
     grid-template-columns: 100%;
     background-color: #D8CED7;
     width: 100vw;
-    height: 140vh;
+    height: 120vh;
     position: relative;
     margin-top: 0;
-    z-index: 2;
 }
 .s1_1{
   text-align: justify;
@@ -147,8 +146,9 @@ margin: 4rem 0  0  15rem;
 }
 
 }
+
 /* MOBILE */
- @media only screen and (max-device-width : 410px) {
+ @media only screen and (max-device-width : 400px) {
   header {
     position: absolute;
     top: 5em;
@@ -165,30 +165,34 @@ margin: 4rem 0  0  15rem;
     border-radius: 3px;
     cursor: pointer;
   }
+
   #part_1 {
     display: grid;
     grid-template-columns: 100%;
     background-color: #D8CED7;
     width: 100vw;
-    height: 291vh;
+    height: 160vh;
     position: relative;
     margin-top: 0;
     z-index: 2;
 }
+
 .s1_1{
   text-align: justify;
   margin: 22rem 3rem 0rem 3rem;
 }
+
 .s1_1 h2 {
   margin-top: 25px;}
 
 .s1_2{
-  margin: 4rem 0 0 7rem;
+  margin: 4rem 0 0 6rem;
   }
+
 .overlay-image {
     position: relative;
-    width: 78.5%;
-    margin: 2rem 0 0 0;
+    width: 85%;
+    margin: 2rem 0 2rem 0;
 }
 
 .s2_vid video {

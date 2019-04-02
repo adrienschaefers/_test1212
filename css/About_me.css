@@ -153,7 +153,7 @@ svg rect {
   -o-transition: all 0.8s ease-in-out;
 }
 /* IPAD */
-@media only screen and (max-device-width : 768px) {
+@media only screen and (max-device-width : 770px) {
   #part_1 {
     display: grid;
     grid-template-columns: 100%;
@@ -163,8 +163,8 @@ svg rect {
 }
 header {
   position: absolute;
-  top: 9em;
-  left: 6em;
+  top: 14em;
+  left: 5em;
   z-index: 2;
 }
 
@@ -182,12 +182,12 @@ header {
 }
 #moi {
   width: 21%;
-  margin: 9.1rem 0 0 38.5rem;
+  margin: 10.1rem 0 0 45.5rem;
 }
 
 #logo {
     width: 20%;
-    margin: 0 0 0 39rem;
+    margin: 0 0 0 46rem;
     z-index: 3;
 }
 .basicBox {
@@ -201,7 +201,7 @@ header {
   text-align: center;
   position: relative;
   cursor: pointer;
-  margin: 0 0 0 38rem;
+  margin: 0 0 0 45rem;
 }
 .s1_2{
   margin: 0rem 0 19rem 5rem;
@@ -219,7 +219,7 @@ h4{
   margin: 0rem 0 0 4rem;
 }
 #s22 {
-  margin: 3rem 0 0 0;
+  margin: 6rem 0 0 0;
 }
 }
 /* Mobile */
@@ -229,11 +229,11 @@ h4{
     grid-template-columns: 100%;
     background-color: #D8CED7;
     width: 100vw;
-    height: 120vh;
+    height: 200vh;
 }
 header {
   position: absolute;
-  top: 5em;
+  top: 2em;
   left: 3em;
   z-index: 2;
 }
@@ -244,7 +244,7 @@ header {
   transition: all ease .5s;
   letter-spacing: 3px;
   height: auto;
-  width: 90%;
+  width: 70%;
   border-radius: 3px;
   cursor: pointer;
 }
@@ -254,11 +254,11 @@ header {
 }
 #moi {
   width: 34%;
-  margin: 5rem 0 0 23.5rem;
+  margin: 8rem 0 0 18.5rem;
 }
 #logo {
   width: 34%;
-  margin: -3.5rem 0 0 23.5rem;
+  margin: -4.5rem 0 0 18.5rem;
   z-index: 3;
 }
 .basicBox {
@@ -272,18 +272,21 @@ header {
   text-align: center;
   position: relative;
   cursor: pointer;
-  margin: 1px 0px 32px 223px;
+  margin: 1px 0px 32px 164px;
+}
+.s1_2 {
+margin:2rem 0em 5rem 5rem;
 }
   h1 {
     font-size: 40px;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    margin: 0rem 0 0 3rem;
+    margin: 0;
 }
 h3{
-  margin: 4rem 0 2rem 3rem;
+  margin: 4rem 0 0 0 ;
 }
 h4{
-  margin: 0rem 0 0 3rem;
+margin: 2rem 0 0 0 ;
 }
 }

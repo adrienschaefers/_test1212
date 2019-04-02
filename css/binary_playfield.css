@@ -109,7 +109,89 @@ margin: 18rem 0 0 6em;
 .s1_3 img{
 width: 70%;
 }
-
-@media only screen and (max-device-width : 470px) {
+@media only screen and (max-device-width : 770px) {
+  header {
+    position: absolute;
+    top: 5em;
+    left: 3em;
+  }
   
+  .btn-left {
+    margin: 0 auto;
+    text-align: center;
+    transition: all ease .5s;
+    letter-spacing: 3px;
+    height: auto;
+    width: 70%;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  #part_1 {
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #D8CED7;
+    width: 100vw;
+    height: 160vh;
+    position: relative;
+    margin-top: 0;
+}
+.s1_1 {
+  position: relative;
+  text-align: justify;
+  align-self: end;
+  margin: 22rem 10rem 0rem 10rem;
+}
+.s1_2 {
+  margin: 5rem 0 0 14em;
+}
+.overlay-image {
+  position: relative;
+  width: 70%;
+}
+.s1_3 {
+  margin: 0rem 0 0 22.1rem;
+}
+.s1_3 img {
+  width: 60%;
+}
+}
+@media only screen and (max-device-width : 400px) {
+  header {
+    position: absolute;
+    top: 5em;
+    left: 3em;
+  }
+  
+  .btn-left {
+    margin: 0 auto;
+    text-align: center;
+    transition: all ease .5s;
+    letter-spacing: 3px;
+    height: auto;
+    width: 80%;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#part_1 {
+  display: grid;
+  grid-template-columns: 100%;
+  background-color: #D8CED7;
+  width: 100vw;
+  height: 220vh;
+  position: relative;
+  margin-top: 0;
+}
+.s1_1{
+  margin: 14rem 4rem 0rem 4rem;
+}
+.s1_2 {
+  margin: 2rem 0 0em 4.5em;
+}
+.s1_3 {
+  margin: 0rem 0 0 10.5rem;
+}
+.overlay-image {
+  position: relative;
+  width: 90%;
+}
 }
