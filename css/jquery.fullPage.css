@@ -20,6 +20,15 @@
  }
 
 /* SECTION 1 gauche */
+
+/* BODYMOVIN */
+#bm{
+    width: 80%;
+    position: absolute;
+    bottom: -90%;
+    left: 48%;
+    z-index: 1;;
+}
 .s1_1 {
     color: #D8CED7;
     align-self: end;
@@ -36,7 +45,7 @@
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    margin: 0rem 0rem 18rem 10rem;
+    margin: 0rem 0rem 11rem 10rem;
     }
 
 .s1_1 h4{
@@ -44,7 +53,7 @@
     font-size: 2rem;
     font-weight: 500;
     position: absolute;
-    bottom: 18rem;
+    bottom: 11rem;
     left: 65.5rem;
 }
 /* Typing css */
@@ -65,11 +74,12 @@
 
 .s1_2{
     align-self: end;
+    z-index: 3;
     }
 
 .s1_2 a{
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     font-family: sans-serif;
     text-decoration: none;
     text-transform: uppercase;
@@ -79,10 +89,11 @@
     -moz-transition: 0.5s ;
     -ms-transition: 0.5s ;
     -o-transition: 0.5s ;
+    
     }
 
 .btn_1 {
-        margin: 0 0 6rem 0;
+        margin: 0 0 7.8rem 0;
         text-align: center;
         transition: all ease .5s;
         letter-spacing: 3px;
