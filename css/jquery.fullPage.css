@@ -6,6 +6,8 @@
  * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
  */
 
+ /* Responsive */
+
  /* Section 1  */
 
 #part_1{
@@ -310,6 +312,274 @@
     -ms-transition: 0.5s ;
     -o-transition: 0.5s ;
 }
+.btn_4 {
+    margin:  0 0 4rem 38.5rem;
+    text-align: center;
+    transition: all ease .5s;
+    letter-spacing: 3px;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+      }
+.btn_4:hover {
+    width: 220px;
+    padding: 13px 15px 10px 15px;
+}
+      .btn_4:after {
+        content: "→";
+        transition: all ease .5s;
+        position:relative;
+        opacity: 0;
+        left: -12px;
+      }
+      .btn_4:hover:after {
+        content: "→";
+        transition: all ease .5s;
+        opacity: 1;
+        left: 8px;
+      }
+/* Responsive  */
+
+@media only screen and (max-device-width : 768px) {
+    /* Styles */
+    /* Section 1 */
+    #part_1{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        background-color: #101010;
+        width: 100vw;
+        height: 100vh;
+        margin-top: 0;
+     }
+    .s1_1 {
+        color: #D8CED7;
+        position:relative;
+        }
+
+    .s1_1 h3 {
+            font-size: 2rem;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 200;
+            margin: 0rem 0rem 26rem 5rem;
+    }
+    .s1_1 h4{
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+        font-weight: 500;
+        position: absolute;
+        bottom: 26rem;
+        left: 21.5rem;
+        }
+    .btn_1 {
+            margin: 0 0 14rem 0;
+    }
+    /* Section 2 */
+    #part_2 {
+        display: grid;
+        grid-template-columns: 100%;
+        width: 100vw;
+        height: 100vh;
+        color:#101010;
+        background-color: #D8CED7;
+        /* transform-style: preserve-3d; */
+        }
+    .s2_1{
+        padding: 25rem 0 0 0;
+    }
+    .s2_1 h1 {
+        margin: 0 0 2rem 11rem;
+    }
+    .s2_1 h3 {
+        margin: 0 0 3rem 11rem;
+        text-align: justify;
+    }
+    .s2_2 img {
+        width: 40rem;
+        margin: 0 0 5rem 11rem;
+    }
+    .btn_2 {
+        margin: 0 37.4rem 38.5rem;
+            text-align: center;
+            transition: all ease .5s;
+            letter-spacing: 3px;
+            width: 200px;
+            height: 50px;
+            border-radius: 3px;
+        }
+    /* Section 3 */
+    #part_3 {
+        display: grid;
+        grid-template-columns: 100%;
+        background-color: #101010;
+        color:#fff;
+        width: 100vw;
+        height: 100vh;
+        margin-top: 0;
+    }
+    .s3_1{
+        padding: 18rem 0 0 0;
+    }
+    .s3_1 h1 {
+        margin: 0 0 2rem 11rem;
+    }
+    .s3_1 h3 {
+        margin: 0 0 3rem 11rem;
+    }
+    .s3_2 img {
+        width: 28rem;
+        margin: 2rem 0 5rem 11rem;
+    }
+    .btn_3 {
+        margin: 0 35.4rem 38.5rem;
+        /* text-align: center; */
+        transition: all ease .5s;
+        letter-spacing: 3px;
+        width: 200px;
+        height: 50px;
+        border-radius: 3px;
+          }
+    /* Section 4  */
+    #part_4 {
+        display: grid;
+        grid-template-columns: 100%;
+        width: 100vw;
+        height: 100vh;
+        color:#101010;
+        background-color: #D8CED7;
+    }
+    .s4_1{
+        padding: 24rem 0 0 0;
+    }
+    .s4_1 h1 {
+        margin: 0 0 4rem 11rem;
+        font-size: 2.5em;
+    }
+    .s4_1 h3 {
+        margin: 0 0 3rem 11rem;
+    }
+    .s4_2 img {
+        width: 40rem;
+        margin: 4rem 0 5rem 10rem;
+    }
+    .btn_4{
+        margin: 0 37.4rem 38.5rem;
+            text-align: center;
+            transition: all ease .5s;
+            letter-spacing: 3px;
+            width: 200px;
+            height: 50px;
+            border-radius: 3px;
+        }
+
+}
+@media only screen and (max-device-width : 480px) {
+    /* Section 1 */
+    #part_1{
+        display: grid;
+        grid-template-columns: 100%;
+        background-color: #101010;
+        width: 100vw;
+        height: 100vh;
+        margin-top: 0;
+     }
+.s1_1{
+    padding: 50rem 0 0 0;
+}
+    .s1_1 h1{
+        font-size: 3.5rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        margin: 0rem 0rem 1rem 5rem;
+        }
+    .s1_1 h4{
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+        font-weight: 500;
+        position: absolute;
+        bottom: 26rem;
+        left: 21.5rem;
+        }
+    .btn_1 {
+        margin: -150px 0 14rem 20px;
+        }
+.s1_2{
+    margin: 0 0 10rem 0; 
+}
+    /* Section 2 */
+    .s2_1 h1 {
+        margin: 0 0 4rem 5rem;
+    }
+    .s2_1 h3 {
+        margin: 0 0 5rem 5rem;
+        text-align: justify;
+    }
+    .s2_2 img {
+        width: 35rem;
+        margin: 0 0 5rem 5rem;
+    }
+    .btn_2 {
+        margin: 0 26.5rem 38.5rem;
+        text-align: center;
+        transition: all ease .5s;
+        letter-spacing: 3px;
+        width: 200px;
+        height: 50px;
+        border-radius: 3px;
+        }
+/* Section 3 */
+.s3_1 h1 {
+    margin: 0 0 4rem 5rem;
+}
+.s3_1 h3 {
+    margin: 0 5rem 5rem 5rem;
+    text-align: justify;
+}
+.s3_2 img {
+    width: 25rem;
+    margin: 0 0 5rem 5rem;
+}
+.btn_3 {
+    margin: 0 26.5rem 38.5rem;
+    /* text-align: center; */
+    transition: all ease .5s;
+    letter-spacing: 3px;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+      }
+/* Section 4 */
+#part_4 {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100vw;
+    height: 100vh;
+    color:#101010;
+    background-color: #D8CED7;
+}
+.s4_1{
+    padding: 24rem 0 0 0;
+}
+.s4_1 h1 {
+    margin: 0 0 4rem 3rem;
+    font-size: 2.5em;
+}
+.s4_1 h3 {
+    margin: 0 0 3rem 3rem;
+}
+.s4_2 img {
+    width: 40rem;
+    margin: 0rem 0 5rem 3rem;
+}
+.btn_4{
+    margin: 0 27.4rem 16.5rem;
+    text-align: center;
+    transition: all ease .5s;
+    letter-spacing: 3px;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    }
+
 
 html.fp-enabled,
 .fp-enabled body {
