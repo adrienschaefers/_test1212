@@ -29,14 +29,14 @@
     font-size: 4rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    margin: 0rem 0rem 1rem 5rem;
+    margin: 0rem 0rem 1rem 10rem;
     }
 
 .s1_1 h3{
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    margin: 0rem 0rem 15rem 5rem;
+    margin: 0rem 0rem 18rem 10rem;
     }
 
 .s1_1 h4{
@@ -44,8 +44,8 @@
     font-size: 2rem;
     font-weight: 500;
     position: absolute;
-    bottom: 15rem;
-    left: 60.5rem;
+    bottom: 18rem;
+    left: 65.5rem;
 }
 /* Typing css */
 
@@ -113,7 +113,7 @@
 /* Section 2 */
 #part_2 {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 40% 60%;
         width: 100vw;
         height: 100vh;
         color:#101010;
@@ -128,7 +128,7 @@
     font-size: 4rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    margin: 0rem 0rem 1rem 5rem;
+    margin: 0rem 0rem 1rem 10rem;
         }
         
 .s2_1 h3{
@@ -136,20 +136,20 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     margin-bottom: unset;
-    margin: 0rem 0rem 25rem 5rem;
+    margin: 0rem 6rem 40rem 10rem;
+    text-align: justify;
 }
         
 .s2_2{
      align-self: end;
         }
 
-.s2_2 img{
-     width: 40rem;
-     margin: 0 0 10rem 0;
-        }
+    .s2_2 img {
+        width: 64rem;
+        margin: 13rem 0rem 0rem 4rem;
+    }
 
 .s2_2 a{
-    padding: 20px 20px 20px 30px;
     color: #101010;
     font-size: 16px;
     font-family: sans-serif;
@@ -164,7 +164,7 @@
         }
 
     .btn_2 {
-        margin:  0 0 4rem 38.5rem;
+        margin:  3rem 0 20rem 50rem;
         text-align: center;
         transition: all ease .5s;
         letter-spacing: 3px;
@@ -208,20 +208,20 @@
     font-size: 4rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    margin: 0rem 0rem 1rem 5rem;
+    margin: 0rem 0rem 1rem 10rem;
 }
 .s3_1 h3{
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    margin: 0rem 0rem 25rem 5rem;
+    margin: 0rem 6rem 23rem 10rem;
 }
 .s3_2{
     align-self: end;
 }
 .s3_2 img{
-    width: 28rem;
-    margin: 0 0 6rem 0;
+    width: 34rem;
+    margin: 0 0 0rem 9rem;
     }
 .s3_2 a{
         color: #fff;
@@ -237,7 +237,7 @@
         -o-transition: 0.5s ;
         }
         .btn_3 {
-            margin:  0 0 4rem 38.5rem;
+            margin:  1rem 0 6.5rem 38rem;
             text-align: center;
             transition: all ease .5s;
             letter-spacing: 3px;
@@ -282,14 +282,14 @@
     font-size: 4rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    margin: 0rem 0rem 1rem 5rem;
+    margin: 0rem 0rem 1rem 10rem;
 }
 
 .s4_1 h3{
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    margin: 0rem 0rem 25rem 5rem;
+    margin: 0rem 0rem 25rem 10rem;
 }
 
 .s4_2{
@@ -462,10 +462,10 @@
     }
     .s4_2 img {
         width: 40rem;
-        margin: 0rem 0 22rem 23rem;
+        margin: 0rem 0 22rem 18rem;
     }
     .btn_4{
-        margin: -128px 48.4rem 35.5rem;
+        margin: -128px 44.4rem 35.5rem;
         text-align: center;
         transition: all ease .5s;
         letter-spacing: 3px;
