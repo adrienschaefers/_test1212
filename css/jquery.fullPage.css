@@ -25,8 +25,8 @@
 #bm{
     width: 80%;
     position: absolute;
-    bottom: -90%;
-    left: 48%;
+    bottom: -78%;
+    left: 46%;
     z-index: 1;;
 }
 .s1_1 {
@@ -404,7 +404,7 @@
         margin: 0 0 2rem 11rem;
     }
     .s2_1 h3 {
-        margin: 0 0 3rem 11rem;
+        margin: 0 10rem 3rem 10rem;
         text-align: justify;
     }
     .s2_2 img {
@@ -437,7 +437,7 @@
         margin: 0 0 2rem 11rem;
     }
     .s3_1 h3 {
-        margin: 0 0 3rem 11rem;
+        margin: 0 11rem 3rem 11rem;
     }
     .s3_2 img {
         width: 28rem;
@@ -488,6 +488,13 @@
 }
 @media only screen and (max-device-width : 400px) {
     /* Section 1 */
+    #bm {
+        width: 100%;
+        position: absolute;
+        bottom: 50%;
+        left: 0%;
+        z-index: 1;
+    }
     #part_1{
         display: grid;
         grid-template-columns: 100%;
@@ -497,7 +504,7 @@
         margin-top: 0;
      }
 .s1_1{
-    padding: 26rem 5rem 0 0rem;
+    padding: 34rem 5rem 0 0rem;
 }
     .s1_1 h1{
         font-size: 3.5rem;
@@ -514,7 +521,7 @@
         font-weight: 500;
         position: absolute;
         bottom: 40rem;
-        left: 9.5rem;
+        left: 9.6rem;
         }
     
     .btn_1 {
